@@ -1,8 +1,7 @@
 # Proof of Learning (PoL) Whitepaper
 
-## Version: 2.0
-## Status: Final
-## Scope: Decentralized Governance Power Allocation & Legitimacy Verification
+## Version: 1.0
+
 
 ---
 
@@ -441,7 +440,7 @@ dCivilization/dt = α · Σ [ Gⱼ(t) · Healthⱼ(t) · (1 + β·Bⱼ(t)) ]
 
 **Protocol Signature**:
 ```
-Proof of Learning Protocol - Version 2.0
+Proof of Learning Protocol - Version 1.0
 Hash: 0x7421c5d3...a9f8e (complete contract code hash)
 Deployer: PoL Constitutional Committee (5-of-9 multisig)
 Effective: Block Height #18,500,000 (estimated)
