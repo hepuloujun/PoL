@@ -642,7 +642,7 @@ dCivilization/dt = α · Σ [ Gⱼ(t) · Healthⱼ(t) · (1 + β·Bⱼ(t)) ]
 
 ---
 
-# **第十章：密码学与可验证性基础（Cryptographic Foundations of PoL）**
+# **第十章：密码学与可验证性基础**
 
 ## **10.1 设计目标：为什么 PoL 需要密码学**
 
