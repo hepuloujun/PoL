@@ -656,7 +656,7 @@ This chapter aims to answer the following questions:
 
 PoL adopts a **layered cryptographic architecture**, rather than relying on a single on-chain proof, in order to balance security, privacy, and engineering feasibility.
 
----
+
 
 ## 10.2 Cryptographic Object Model of PoL
 
@@ -670,7 +670,7 @@ PoL introduces the following core cryptographic objects:
 | Governance Credential | `$GOV_i` | Governance power generated from verifiable learning |
 | Verification Key | `vk` | Used for public verification of learning proofs |
 
----
+
 
 ## 10.3 Learning Commitment Mechanism (PoL-Commitment)
 
@@ -697,7 +697,7 @@ ID_i ∥ TaskID ∥ ArtifactHash ∥ Score_i ∥ τ
 - **Immutability**: Any modification will result in a different `Com_i`
 - **Minimal Disclosure**: Original content need not be revealed; only hashes are required
 
----
+
 
 ## 10.4 PoL Learning Proof (PoL-Proof)
 
@@ -731,7 +731,7 @@ Verify(vk, Com_i, π_i) = true / false
 - Verifiers do not need to know *what* you learned
 - They only need to confirm that you **satisfy the PoL rules**
 
----
+
 
 ## 10.5 Zero-Knowledge Learning Proofs (ZK-PoL)
 
@@ -758,7 +758,7 @@ This assertion can be verified without disclosing specific content.
 - Cross-organization / cross-platform PoL interoperability  
 - Minimal disclosure in compliance-sensitive contexts  
 
----
+
 
 ## 10.6 Verifiable Minting of Governance Power
 
@@ -777,7 +777,7 @@ This logic ensures that:
 - Governance power can only arise from genuine learning
 - It cannot be obtained through capital, transfers, or personal relationships
 
----
+
 
 ## 10.7 Anti-Forgery and Anti-Collusion Mechanisms
 
@@ -803,7 +803,7 @@ Com_i must be submitted within τ_window
 ```
 This prevents delayed submission and retroactive forgery.
 
----
+
 
 ## 10.8 Trust-Minimization Principles of PoL
 
@@ -814,7 +814,7 @@ The cryptographic design of PoL follows these principles:
 - Do not require permanent identities  
 - All governance power must be mathematically reproducible  
 
----
+
 
 ## 10.9 Mapping to Global PoL Formulas
 
@@ -825,7 +825,7 @@ The cryptographic design of PoL follows these principles:
 | ZK-PoL | Chapters 6–7 (Governance and Breakthroughs) |
 | `$GOV` minting | Chapter 6 (Economic Model) |
 
----
+
 
 ## 10.10 Chapter Summary
 
@@ -856,6 +856,3 @@ Cryptography is not an embellishment of PoL; it is the **foundation of its legit
 | (10.4) | Governance Credential Minting Conditions | Chapter 10 | Automatically generates non-transferable governance credentials `$GOV` from verifiable learning proofs. |
 | (10.5) | Anti-Duplication and Anti-Collusion Constraints | Chapter 10 | Prevents duplicate submissions, collusive learning paths, and retroactive forgery. |
 | (10.6) | Cryptographic Verifiability Mapping | Chapter 10 | Maps PoL governance outcomes to reproducible and auditable cryptographic objects. |
-```
-
----
